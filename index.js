@@ -29,7 +29,7 @@ const USER = process.env.USER;
 
 mongoose
   .connect(
-    `mongodb+srv://${USER}:${PASSWORD}@cluster0.rjuxjnj.mongodb.net/apidb?retryWrites=true&w=majority`
+    `mongodb+srv://shirator:$carlosC78!@cluster0.rjuxjnj.mongodb.net/apidb?retryWrites=true&w=majority`
   )
   .then(() => {
     app.listen(3000, () => {
